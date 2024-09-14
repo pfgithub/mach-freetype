@@ -1228,11 +1228,11 @@ pub const Variation = extern struct {
         c.hb_variation_to_string(@ptrCast(self), buf.ptr, @intCast(buf.len));
     }
 
-    pub fn tag(self: Variation) Tag {
+    pub fn getTag(self: Variation) Tag {
         return .{ .handle = self.tag };
     }
 
-    pub fn value(self: Variation) f32 {
+    pub fn getValue(self: Variation) f32 {
         return self.value;
     }
 };
