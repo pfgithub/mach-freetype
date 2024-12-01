@@ -5,6 +5,7 @@ pub fn build(b: *std.Build) !void {
     const target = b.standardTargetOptions(.{});
     const use_system_zlib = b.option(bool, "use_system_zlib", "Use system zlib") orelse false;
     const enable_brotli = b.option(bool, "enable_brotli", "Build brotli") orelse true;
+    const disable_mutex = b.option(bool, "freetype_disable_mutex", "Disable mutex") orelse false;
 
     const freetype_module = b.addModule("mach-freetype", .{
         .root_source_file = b.path("src/freetype.zig"),
@@ -39,6 +40,7 @@ pub fn build(b: *std.Build) !void {
         .optimize = optimize,
         .use_system_zlib = use_system_zlib,
         .enable_brotli = enable_brotli,
+        .disable_mutex = disable_mutex,
     })) |dep| {
         freetype_tests.root_module.linkLibrary(dep.artifact("freetype"));
         freetype_module.linkLibrary(dep.artifact("freetype"));
