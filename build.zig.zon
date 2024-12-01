@@ -19,8 +19,8 @@
             .lazy = true,
         },
         .harfbuzz = .{
-            .url = "https://pkg.machengine.org/harfbuzz/b335727bc98f2561071b73b74a9517d03a501b9b.tar.gz",
-            .hash = "1220d8885935207caa5a2de2ed14c53611c632e0f9696e9db8844c06e69f0b921cd9",
+            .url = "https://github.com/pfgithub/harfbuzz/archive/b9ce3b15a932a59c1d146bed5cf5677622026537.zip",
+            .hash = "12202d9d4789bc1341842b37c2614b579db46fedabb9c10acecebcf1cbd33a8b5f55",
             .lazy = true,
         },
         .font_assets = .{
