@@ -19,8 +19,8 @@
             .lazy = true,
         },
         .harfbuzz = .{
-            .url = "//github.com/pfgithub/harfbuzz/archive/7c05d672784dd9a2973c28c2aaf9584f5a0b19bd.zip",
-            .hash = "12208d9a5b2e14a669925a95f15d6763acf41cb448f1d1a50f668fff8d257b83118f",
+            .url = "https://github.com/pfgithub/harfbuzz/archive/075dd23f60ec0a7be70e9e819db48abcbb8246d1.zip",
+            .hash = "1220702ee3cc412d28eeec1bae0baf4d68a621165322ee41a41e7b5b595f03cdefd1",
             .lazy = true,
         },
         .font_assets = .{
