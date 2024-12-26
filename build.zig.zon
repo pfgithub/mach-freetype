@@ -14,8 +14,8 @@
     },
     .dependencies = .{
         .freetype = .{
-            .url = "https://github.com/pfgithub/freetype/archive/e11c16aa421a004c6710ba1847ddef7a148da578.tar.gz",
-            .hash = "12201850d2b45a4c83a17072701d39d87ea2f86285ed20db5f69e11a3cbad5ff747a",
+            .url = "https://github.com/pfgithub/freetype/archive/9bc69c45d25809051df84dc25b032aa246ac9b42.zip",
+            .hash = "1220c4643df94c55c19e1e3a8613383a9aeff2a8a04fbed2ffbe8071b383a75032fc",
             .lazy = true,
         },
         .harfbuzz = .{
