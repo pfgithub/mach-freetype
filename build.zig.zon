@@ -14,13 +14,13 @@
     },
     .dependencies = .{
         .freetype = .{
-            .url = "https://pkg.machengine.org/freetype/060ee56c3d10c01fb8a1da4fe8cb2102f2537f30.tar.gz",
-            .hash = "1220e1384f26c5b9a3749b49eced1cb8264e871b367dcda2624d37a05367e96c4319",
+            .url = "https://github.com/pfgithub/freetype/archive/e11c16aa421a004c6710ba1847ddef7a148da578.tar.gz",
+            .hash = "12201850d2b45a4c83a17072701d39d87ea2f86285ed20db5f69e11a3cbad5ff747a",
             .lazy = true,
         },
         .harfbuzz = .{
-            .url = "https://pkg.machengine.org/harfbuzz/b335727bc98f2561071b73b74a9517d03a501b9b.tar.gz",
-            .hash = "1220d8885935207caa5a2de2ed14c53611c632e0f9696e9db8844c06e69f0b921cd9",
+            .url = "https://github.com/pfgithub/harfbuzz/archive/31bd29645732525c146683c5d3b41ec6e9d338c7.tar.gz",
+            .hash = "1220cdb9d6e314c283ce034628f479faeb2b06685db705c13225b8bfcaeee9b088f9",
             .lazy = true,
         },
         .font_assets = .{
