@@ -74,6 +74,7 @@ pub fn build(b: *std.Build) !void {
         if (b.lazyDependency("font_assets", .{})) |dep| {
             example_exe.root_module.addImport("font-assets", dep.module("font-assets"));
         }
+        b.installArtifact(example_exe);
 
         const example_run_cmd = b.addRunArtifact(example_exe);
         if (b.args) |args| example_run_cmd.addArgs(args);
