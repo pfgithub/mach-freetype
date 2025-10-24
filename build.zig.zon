@@ -1,5 +1,6 @@
 .{
-    .name = "mach_freetype",
+    .name = .mach_freetype,
+    .fingerprint = 0x9ab36000318769d9,
     .version = "0.0.0",
     .paths = .{
         "examples",
@@ -14,13 +15,12 @@
     },
     .dependencies = .{
         .freetype = .{
-            .url = "https://pkg.machengine.org/freetype/e8c5b37f320db03acba410d993441815bc809606.tar.gz",
-            .hash = "1220babb7939707ca390b934657dfd3c8c3a6a78cc9442e4cbd43e3f9ffd49daec9e",
-            .lazy = true,
+            .url = "https://github.com/pfgithub/freetype/archive/a0642d422b22139029cae00878b2307992c4decb.tar.gz",
+            .hash = "freetype-0.0.0-YcsF6XxJcwB9pFLAvyqAxBl6fzPtbb2KLWwgPy9xREcv",
         },
         .harfbuzz = .{
-            .url = "https://pkg.machengine.org/harfbuzz/cecd5c8d34d343c0ab8b4dc6d2b0e2c08da52936.tar.gz",
-            .hash = "1220557b115b730afbece2ff4a073b6dc095d143318ba2f6b258cee13f580dd7e8ba",
+            .url = "https://github.com/pfgithub/harfbuzz/archive/822696759117a4cad7e6cfb1413bb4123fabf600.tar.gz",
+            .hash = "harfbuzz-0.0.0-0ym0MQRegQAhdMsEXRXYRGvA9FNt4ABy_4r01tpCme42",
             .lazy = true,
         },
         .font_assets = .{
