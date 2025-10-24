@@ -25,7 +25,7 @@
         },
         .font_assets = .{
             .url = "https://pkg.machengine.org/font-assets/899f16b815fde126ba8f6fb781e65253f461b7bf.tar.gz",
-            .hash = "12202b816e7c31c516bd87218fd56f9b1f93671e4ab42a2a98110d586c4b3bdd2730",
+            .hash = "N-V-__8AAIkoDAArgW58McUWvYchj9Vvmx-TZx5KtCoqmBEN",
             .lazy = true,
         },
     },
